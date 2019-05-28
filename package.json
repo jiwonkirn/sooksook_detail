@@ -1,0 +1,17 @@
+{
+  "name": "sooksook-detailpage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jiwonkirn/sooksook_detail.git",
+  "author": "Kimjiwon <jhd1925@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "parcel-bundler": "^1.12.3"
+  }
+}

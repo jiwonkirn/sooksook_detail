@@ -254,3 +254,5 @@ const data = [
     tip2: '[잎 관리]\n잎이 숨을 쉴 수 있도록 먼지를 닦아 주는 것이 좋습니다.'
   }
 ];
+
+export default data;
