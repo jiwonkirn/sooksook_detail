@@ -2,12 +2,13 @@ const data = [
   {
     id: 1,
     name: '극락조',
-    engname: 'areca_palm',
+    engname: 'strelitzia',
     category: '공기정화, 관엽식물',
     water: '여름철엔 1주에 한 번, 겨울에 2주에 한번 줍니다.',
     sunlight: '직사광선은 좋지 앉습니다.',
     wind: '통풍이 잘되는 곳이 좋습니다.',
     temperature: '18 - 20도 정도가 좋습니다.',
+    sources: 'https://blog.naver.com/cultwoflower/220924696283',
     characteristic:
       '생명력과 적응력이 뛰어나서 초보자에게 추천합니다.\n거실에서 키우기 좋습니다.',
     tip1:
@@ -25,6 +26,7 @@ const data = [
     soil:
       '가장 좋은 토양환경은 밭흙과 모래 그리고 부엽토를 1:1:1 의 비율로 혼합한 배양토입니다.',
     temperature: '5도 이상을 유지하는 것이 좋습니다.',
+    sources: 'https://blog.naver.com/cultwoflower/220924696283',
     characteristic: '원산지는 인도 뱅갈지방 입니다.\n',
     tip1:
       '[화분관리]\n화분자체가 통기가 잘안되는 유약이 발라진 화분이라면 주의할 필요가 있습니다.',
@@ -44,6 +46,7 @@ const data = [
     category: '관엽식물',
     sunlight: '겨울에는 볕이잘 드는 실내로 옮겨 기르는 것이 좋습니다.',
     temperature: '최저 10도 이상을 유지해줍니다.',
+    sourses: 'https://www.flickr.com/photos/tomronworldwide/24343350017',
     characteristic: '[환경]\n일 년 내내 실내에서 키워도 되는 나무입니다.',
     tip1:
       '[잎 관리]\n창가에서 햇볕을 주고 잎이 2~3장이 되면 가지 끝을 잘라 모양을 세워주는 것이 좋다.'
@@ -65,6 +68,8 @@ const data = [
       '일교차가 커지는 봄, 가을에 주의하는 것이 좋습니다. 겨울같은 경우에는 실내에서 키우는 것을 추천합니다.',
     characteristic:
       '떡갈나무의 잎처럼 생겼으며 더디게 자란다는 단점이 있습니다.',
+    sources:
+      'https://commons.wikimedia.org/wiki/File:Fiddle_leaf_fig_2.jpg, CC BY-SA 3.0',
     tip1:
       '[해충]\n응애, 깍지벌레에 주의해야합니다.\n키우는 장소가 건조하거나 통풍이 원활하지 않으면, 병충해가 생길 수 있으므로, 잎에 물을 분부해주거나, 통풍이 원활한 장소에서 키우는게 좋습니다. \n',
     tip2:
@@ -82,6 +87,7 @@ const data = [
     wind:
       '반음지 식물로 직사광선을 피해 통풍이 잘 되는 반그늘에서 잘 자라므로 자주 환기를 시켜주면 좋습니다.',
     soil: '분갈이는 4월~6월에 하는 게 좋습니다.',
+    sources: 'https://blog.naver.com/gimpo2010/221181293061',
     characteristic:
       "NASA가 선정한 '공기정화식물 50가지' 리스트에도 오른 공인된 공기정화식물입니다.\n자라면 꽃과 열매도 볼 수 있어 관상용으로도 좋고 음지 식물 중에서도 소탈하게 잘 자라는 편이라 실내에서 키우기 쉬운 대표식물로 꼽힙니다.",
     tip1:
@@ -101,6 +107,7 @@ const data = [
       '포름알데히드, 모래 1 : 부엽 1 : 토탄 1 의 비율이 좋습니다. 분갈이의 경우 1년에 한번정도 해주면 좋습니다. 수경으로 기를 경우 크게 자라지는 않습니다.\n',
     temperature:
       '추위에 약한편이라 겨울에도 13도 이상은 되어야합니다. 5도 아래로 떨어지게 되면 낙엽이 됩니다.\n\n- 최저: 5 ~10°C 이상\n- 적정: 21~25°C',
+    sources: 'https://blog.naver.com/cultwoflower/220558481088',
     characteristic:
       '일산화탄소 제거 능력이 뛰어나고 냄새를 제거하는 능력도 좋기로 유명합니다. 따라서 일산화탄소가 자주 발생하는 주방에서 키우면 도움이 되는 식물입니다.',
     tip1:
@@ -121,6 +128,7 @@ const data = [
     soil: '배양토: 밭흙, 부엽, 모래를 4 : 4 : 2로 해주는 것이 좋습니다.',
     temperature:
       '월동, 겨울철에는 5도 이상을 유지해주는 것이 좋습니다. 겨울철 추위에 어느정도 적응하는 것이 성장에 도움이 되므로 영하로 떨어지지 않으면서 온도가 낮은 배란다에 두는 것이 좋습니다. 적정 온도는 10 ~ 21도 입니다.',
+    sources: "Miya's file: I took this photo in Hyogo, Japan. CC BY-SA 3.0",
     characteristic:
       '1 ~ 1.5m 까지 자라는 상록성 관목입니다.\n개화기는 1월 ~ 4월입니다. 꽃의 향기가 무척 좋습니다.',
     tip1:
@@ -197,6 +205,7 @@ const data = [
     soil:
       '착생식물이므로 토양을 신경쓰지 않아도 좋습니다. 공중에 떠다니는 무기질과 수분을 흡수해서 자랍니다.',
     temperature: '18도 ~ 28도가 적정합니다. 월동 온도는 20도 입니다.',
+    sources: 'https://pixabay.com/ko/photos/dischidia-pectenoide-1443766/',
     characteristic:
       '온도와 습도에 대한 적응력이 뛰어나기 때문에 키우기 쉽지만 성장은 느린편입니다.\n키우는 난이도가 어렵지 않고 관상용으로 좋습니다.',
     tip1:
@@ -215,6 +224,7 @@ const data = [
     wind: '통풍이 잘되는 곳이 좋습니다.',
     soil: '보수력이 좋은 토양이 좋습니다.',
     temperature: '15~25°C, 추위에 약한 모습을 보입니다.',
+    sources: 'http://www.publicdomainfiles.com/',
     characteristic:
       ' 다년간 기를 수 있지만 까다롭기 때문에 1년생으로 보고 기르는 경우가 많습니다.\n\n',
     tip1:
@@ -237,6 +247,7 @@ const data = [
     soil:
       '입자가 곱고 배수성과 보습성이 좋은 흙이 좋습니다. 깨끗하게 살균된 분갈이용 흙을 구입하시는 것이 좋습니다. 원예용 상토를 많이 사용합니다.',
     temperature: '추위에 약합나다. 보통 15도 ~ 30도에서 키우는 것이 좋습니다.',
+    sources: 'https://blog.naver.com/cultwoflower/221470599226',
     characteristic: '겨울철에 실내에 두면 과습효과를 줄 수 있습니다.\n',
     tip1:
       '[물의 온도]\n물의 온도는 식물이 생장하는 온도와 비슷한 온도로 주는 것이 좋습니다. 온도의 불균형은 잎을 노랗게 만들 수 있습니다.',

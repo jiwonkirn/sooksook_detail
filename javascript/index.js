@@ -30,6 +30,10 @@
     '.plant-image'
   ).style.backgroundImage = `url(./images/${plant.engname}.jpg)`;
 
+  document.querySelector('.small').textContent = plant.sources
+    ? `출처: ${plant.sources}`
+    : '';
+
   // 탭에 클릭이벤트를 달아준다.
   document.querySelectorAll('.tab').forEach((element, index) => {
     element.addEventListener('click', (e) => {
