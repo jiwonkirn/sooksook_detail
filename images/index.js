@@ -10,6 +10,7 @@ import scindapsus from './scindapsus.jpg';
 import snow_sapphire from './snow_sapphire.jpg';
 import strelitzia from './strelitzia.jpg';
 import weeping_fig from './weeping_fig.jpg';
+import tillandsia_usneoides from './tillandsia_usneoides.jpg';
 import soil_icon from './soil_icon.png';
 import wind_icon from './wind_icon.png';
 import sunlight_icon from './sunlight_icon.png';
@@ -23,6 +24,7 @@ import tip5_icon from './tip5_icon.png';
 import water_icon from './water_icon.png';
 
 const images = {
+  tillandsia_usneoides,
   basil_tree,
   daphne_koreana,
   dischidia,
